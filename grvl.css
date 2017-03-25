@@ -1,37 +1,50 @@
-/* grvl 1.0.0 */
+/* grvl 1.1.0 */
 
-a {
-  color:black;
+.black {background: #212121; color: white;}
+.blackf {color: #212121;}
+.gray {background: lightgrey;}
+.white {background: white;}
+.red {background: #f44336; color: white;}
+.orange {background: #FF5722; color: white;}
+.yellow {background: #FFEB3B; color: white;}
+.green {background: #8BC34A; color: white;}
+.blue {background: #2196F3; color: white;}
+.indigo {background: #673AB7; color: white;}
+.violet {background: violet; color: white;}
+
+ a {
+  color:#212121;
   text-decoration:none;
 }
 a:hover{
   text-decoration: underline;
 }
+article {
+  display: flex;
+  flex-wrap: wrap;
+}
+aside {
+  display: flex;
+  flex-wrap: wrap;
+}
 body{
-    background: #F5F5F5;
-  margin: 0;
+  background: #F5F5F5;
+  color: #212121;
   font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 0;
 }
 header{
-  align-items:center;
-  background: black;
   display:flex;
-  flex-wrap:wrap;
-  min-height:45px;
-  justify-content: center;
+  flex-wrap:nowrap;
 }
-header a{
-  color: white;
-  font-size:14px;
-  text-align:center;
+nav {
+  display: flex;
+  flex-wrap: wrap;
 }
-header a:hover{
-  text-decoration:none;
-}
-p{
-  font-weight: bold;
+p {
   margin:0;
-  padding:10px 0 5px 10px;
+  padding:5px;
 }
 ul {
   list-style-type: none;
@@ -42,13 +55,6 @@ ul li{
   margin: 0;
   padding: 0;
   }
-.body{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  min-height:100px;
-  width:100%;
-}
 .box{
   background: #ffffcc;
   box-shadow: 
@@ -60,25 +66,14 @@ rgba(0, 0, 0, 0.2) 0px 2px 3px 0.5px, rgba(0, 0, 0, 0.0470588) 0px 0px 1px 1px
   min-width:100px;
   padding-bottom:5px;
 }
-.btn {
-  align-items: center;
-  background: #E0E0E0;
-box-shadow: 
-rgba(0, 0, 0, 0.2) 0px 2px 3px 0.5px, rgba(0, 0, 0, 0.0470588) 0px 0px 1px 1px
-;
-0px 2px 3px 0.5px rgba(0,0,0,0.2), 0 0 1px 1px rgba(0,0,0,0.05);
-  box-sizing: border-box;
-  color: #212121;
-  cursor: default;
-  display: flex;
-  min-height: 34px;
-  justify-content: center;
-  line-height: 27px;
-  margin: 10px;
-  text-decoration:none;
-  min-width: 92px;
-}
 .c{
   display:flex;
   flex-direction: column;
+}
+.m {
+  display: none;
+  }
+.w {
+  display: flex;
+  flex-wrap: wrap;
 }
