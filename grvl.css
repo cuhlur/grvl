@@ -1,0 +1,84 @@
+/* grvl 1.0.0 */
+
+a {
+  color:black;
+  text-decoration:none;
+}
+a:hover{
+  text-decoration: underline;
+}
+body{
+    background: #F5F5F5;
+  margin: 0;
+  font-family: arial, sans-serif;
+}
+header{
+  align-items:center;
+  background: black;
+  display:flex;
+  flex-wrap:wrap;
+  min-height:45px;
+  justify-content: center;
+}
+header a{
+  color: white;
+  font-size:14px;
+  text-align:center;
+}
+header a:hover{
+  text-decoration:none;
+}
+p{
+  font-weight: bold;
+  margin:0;
+  padding:10px 0 5px 10px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  }
+ul li{
+  margin: 0;
+  padding: 0;
+  }
+.body{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-height:100px;
+  width:100%;
+}
+.box{
+  background: #ffffcc;
+  box-shadow: 
+rgba(0, 0, 0, 0.2) 0px 2px 3px 0.5px, rgba(0, 0, 0, 0.0470588) 0px 0px 1px 1px
+;
+0px 2px 3px 0.5px rgba(0,0,0,0.2), 0 0 1px 1px rgba(0,0,0,0.05)application-25822e4….css:4a;
+  min-height:10px;
+  margin: 10px;
+  min-width:100px;
+  padding-bottom:5px;
+}
+.btn {
+  align-items: center;
+  background: #E0E0E0;
+box-shadow: 
+rgba(0, 0, 0, 0.2) 0px 2px 3px 0.5px, rgba(0, 0, 0, 0.0470588) 0px 0px 1px 1px
+;
+0px 2px 3px 0.5px rgba(0,0,0,0.2), 0 0 1px 1px rgba(0,0,0,0.05);
+  box-sizing: border-box;
+  color: #212121;
+  cursor: default;
+  display: flex;
+  min-height: 34px;
+  justify-content: center;
+  line-height: 27px;
+  margin: 10px;
+  text-decoration:none;
+  min-width: 92px;
+}
+.c{
+  display:flex;
+  flex-direction: column;
+}
